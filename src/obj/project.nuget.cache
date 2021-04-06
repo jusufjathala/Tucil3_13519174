@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mk5cU/mmtmYkc5Vcw7Taptle6dNtEca8ww7va9YNmEVp30HDCqWBV1MoK19Cc/fJdra0HlAaHSxoTAFtwI6GaQ==",
+  "dgSpecHash": "3HGR1+ZFQIpou//I1gzJBWRvp7z6E7U1Q7/4xRymrFtf/Xd6gs5ZkDJLYGMSxxJRvaU2utp17JXCtm8rxl6OWQ==",
   "success": true,
-  "projectFilePath": "D:\\1tucil3\\new\\src\\Tucil3.csproj",
+  "projectFilePath": "C:\\Users\\JEJE\\Desktop\\Tucil3_13519174\\src\\Tucil3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JEJE\\.nuget\\packages\\automaticgraphlayout\\1.1.11\\automaticgraphlayout.1.1.11.nupkg.sha512",
     "C:\\Users\\JEJE\\.nuget\\packages\\automaticgraphlayout.drawing\\1.1.11\\automaticgraphlayout.drawing.1.1.11.nupkg.sha512",

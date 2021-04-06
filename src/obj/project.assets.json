@@ -121,11 +121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1tucil3\\new\\src\\Tucil3.csproj",
+      "projectUniqueName": "C:\\Users\\JEJE\\Desktop\\Tucil3_13519174\\src\\Tucil3.csproj",
       "projectName": "Tucil3",
-      "projectPath": "D:\\1tucil3\\new\\src\\Tucil3.csproj",
+      "projectPath": "C:\\Users\\JEJE\\Desktop\\Tucil3_13519174\\src\\Tucil3.csproj",
       "packagesPath": "C:\\Users\\JEJE\\.nuget\\packages\\",
-      "outputPath": "D:\\1tucil3\\new\\src\\obj\\",
+      "outputPath": "C:\\Users\\JEJE\\Desktop\\Tucil3_13519174\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
