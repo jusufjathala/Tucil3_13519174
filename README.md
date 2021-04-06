@@ -45,3 +45,6 @@ Jusuf Junior Athala / 13519174
 4. Pilih simpul sumber dan simpul tujuan
 5. Klik SUBMIT untuk menunjukkan hasil
 
+(Catatan : Hasil build dari solution dalam folder src akan tersimpan dalam folder src/bin/debug/netcoreapp3.1
+isi folder netcoreapp3.1 dapat dicopy ke bin folder pada folder utama)
+
