@@ -14,9 +14,9 @@ namespace Tucil3
     public partial class Form1 : Form
     {
 
-        private List<string> listNames = new List<string>(1);
-        private List<Tuple<Stack<int>, double>> listTuples = new List<Tuple<Stack<int>, double>>(1);
-        private List<Node> listNodes = new List<Node>(1);
+        private List<string> listNames;
+        private List<Tuple<Stack<int>, double>> listTuples;
+        private List<Node> listNodes;
         private WeightedGraph myGraph;
         //visited
         private bool[] visited;
@@ -78,21 +78,23 @@ namespace Tucil3
         {
             try
             {
-                string coor1 = File.ReadAllText(FileName);
+                string text1 = File.ReadAllText(FileName);
 
-
+                listNames = new List<string>();
+                listTuples = new List<Tuple<Stack<int>, double>>();
+                listNodes = new List<Node>();
+                
                 graph1 = new Microsoft.Msagl.Drawing.Graph("graph");
 
                 char[] delimiterLine = { '\n' };
                 char[] delimiterSlash = { '/' };
                 char[] delimiterComma = { ',' };
                 string[] delimiterDot = { "\n." };
-                string[] split = coor1.Split(delimiterDot, StringSplitOptions.RemoveEmptyEntries); //pisahkan koordinat dan matrix
 
-
+                //pisahkan koordinat dan matrix
+                string[] split = text1.Split(delimiterDot, StringSplitOptions.RemoveEmptyEntries); 
 
                 string[] lines = split[0].Split(delimiterLine); //split setiap newline
-
 
                 for (int i = 1; i <= Int32.Parse(lines[0]); i++)
                 {
@@ -100,6 +102,7 @@ namespace Tucil3
                     string[] coord = name[1].Split(delimiterComma);
                     if (!listNames.Contains(name[0]))
                     {
+                        //Menambahkan simpul ke list nama dan list simpul
                         listNames.Add(name[0]);
                         Node n = new Node(listNames.IndexOf(name[0]), Int32.Parse(coord[0]), Int32.Parse(coord[1]));
                         listNodes.Add(n);
@@ -109,7 +112,7 @@ namespace Tucil3
                 string[] matrix = split[1].Split(delimiterLine);
                 myGraph = new WeightedGraph(Int32.Parse(lines[0]));
 
-                //addedge
+                //Menambahkan ketetanggaan simpul dan menggambar visualisasi Graf
                 for (int i = 1; i <= Int32.Parse(lines[0]); i++)
                 {
 
@@ -199,16 +202,18 @@ namespace Tucil3
                 this.Location = newLoc;
                 string richboxtext1 = "Simpul Sumber: " + comboBox1.SelectedItem + "\n" + "Simpul Target: " + comboBox2.SelectedItem + "\n";
 
+                //Array visited
                 visited = new bool[myGraph.V()];
                 for (int i = 0; i < myGraph.V(); i++)
                 {
                     visited[i] = false;
                 }
 
+                //isource adalah index simpul sumber dan ifind adalah index simpul tujuan
                 int isource = comboBox1.SelectedIndex;
                 int ifind = comboBox2.SelectedIndex;
 
-
+                //Push simpul sumber
                 Stack<int> start = new Stack<int>();
                 start.Push(isource);
 
@@ -221,7 +226,8 @@ namespace Tucil3
 
                 while (listTuples.Count > 0 && visitedcount < myGraph.V() && v != ifind)
                 {
-
+                    //jika bukan memeriksa simpul awal akan mengganti tuple awal dengan
+                    //tuple yang memiliki f(n) dikurangi jarak heuristik
                     if (listTuples[0].Item2 != 0)
                     {
                         Stack<int> temp1 = new Stack<int>(listTuples[0].Item1.Reverse());
@@ -229,6 +235,8 @@ namespace Tucil3
                         listTuples.Insert(1, Tuple.Create(temp1, temp2));
                         listTuples.RemoveAt(0);
                     }
+
+                    //memeriksa simpul yang terhubung dengan simpul sumber
                     foreach (var edge in myGraph.getAdjacency(v))
                     {
                         if (!visited[edge.Target(listNodes[v]).V()])
@@ -247,7 +255,7 @@ namespace Tucil3
                     }
 
 
-
+                    //melakukan sort list tuple
                     listTuples.Sort((x, y) => x.Item2.CompareTo(y.Item2));
                     if (listTuples[0].Item1.Peek() != ifind)
                     {
@@ -267,6 +275,7 @@ namespace Tucil3
 
                 RefreshGraphColor(listNames);
 
+                //memberi warna pada simpul graf
                 System.Drawing.Color colorname = System.Drawing.Color.FromName("Cyan");
                 graph1.FindNode(listNames.ElementAt(isource)).Attr.FillColor = new Microsoft.Msagl.Drawing.Color(colorname.R, colorname.G, colorname.B);
 
