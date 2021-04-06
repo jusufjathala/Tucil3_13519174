@@ -1,0 +1,41 @@
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Tucil3.exe
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Tucil3.deps.json
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Tucil3.runtimeconfig.json
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Tucil3.runtimeconfig.dev.json
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Tucil3.dll
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Tucil3.pdb
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\AutomaticGraphLayout.dll
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\AutomaticGraphLayout.Drawing.dll
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\bin\Debug\netcoreapp3.1\Microsoft.Msagl.WpfGraphControl.dll
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.Properties.Resources.resources
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.csproj.GenerateResource.cache
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.AssemblyInfoInputs.cache
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.AssemblyInfo.cs
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.csproj.CoreCompileInputs.cache
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.csproj.CopyComplete
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.dll
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.pdb
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.genruntimeconfig.cache
+C:\Users\JEJE\Desktop\Stima2 - Copy (3)\src\obj\Debug\netcoreapp3.1\Tucil3.Form1.resources
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Tucil3.exe
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Tucil3.deps.json
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Tucil3.runtimeconfig.json
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Tucil3.runtimeconfig.dev.json
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Tucil3.dll
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Tucil3.pdb
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\AutomaticGraphLayout.dll
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\AutomaticGraphLayout.Drawing.dll
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Microsoft.Msagl.GraphViewerGdi.dll
+D:\1tucil3\new\src\bin\Debug\netcoreapp3.1\Microsoft.Msagl.WpfGraphControl.dll
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.csprojAssemblyReference.cache
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.Form1.resources
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.Properties.Resources.resources
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.csproj.GenerateResource.cache
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.AssemblyInfoInputs.cache
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.AssemblyInfo.cs
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.csproj.CoreCompileInputs.cache
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.csproj.CopyComplete
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.dll
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.pdb
+D:\1tucil3\new\src\obj\Debug\netcoreapp3.1\Tucil3.genruntimeconfig.cache
